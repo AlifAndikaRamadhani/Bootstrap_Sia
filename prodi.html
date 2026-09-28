@@ -9,6 +9,11 @@
     <meta name="author" content="SIA POLYTECHNIC ASTRA Team">
 
     <title>SIA - Master Data Program Studi</title>
+    <script>
+        if (!sessionStorage.getItem('isLoggedIn')) {
+            window.location.href = 'login.html';
+        }
+    </script>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
